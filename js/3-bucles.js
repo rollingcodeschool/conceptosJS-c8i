@@ -23,9 +23,22 @@
 */
 
 
-let cantidadMates = 0;
+// let cantidadMates = 0;
 
-do{
-  document.write("<br>Mate cebado N: " + cantidadMates);
-  cantidadMates--; //cantidadMates = cantidadMates - 1;
-}while( cantidadMates >= 1)
+// do{
+//   document.write("<br>Mate cebado N: " + cantidadMates);
+//   cantidadMates--; //cantidadMates = cantidadMates - 1;
+// }while( cantidadMates >= 1)
+
+//Ejemplo bucle for
+
+/*
+  for(inicializar una variable ; condicion logica ;  modificar la variable creada al inicio){
+    todo el codigo que quiero ejecutar muchas veces
+  }
+
+*/
+
+for(let mates = 0; mates >= 1; mates--){
+  document.write("<br>Mate cebado N: " + mates);
+}
