@@ -9,11 +9,14 @@ console.log(filas)
 console.log(columnas)
 
 
-document.write(`<table class="tablaDatos">
-<tbody>
-    <tr>
-        <td>hola</td>
-        <td>mundo</td>
-    </tr>
-</tbody>
-</table>`)
+document.write(`<table class="tablaDatos"><tbody>`);
+//aqui tengo que dibujar las filas
+for(let indiceFila = 0; indiceFila < filas; indiceFila++){
+    document.write(`
+        <tr>
+            <td>hola</td>
+            <td>mundo</td>
+        </tr>`);
+}
+
+document.write(`</tbody></table>`);
