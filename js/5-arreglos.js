@@ -80,11 +80,11 @@ console.log(series[30]);
 
 //ejercicio pequeño
 
-do{
-    let colorNuevo =  prompt('Ingrese un color');
-    colores.push(colorNuevo);
-}while(confirm('¿Desea ingresar mas colores?'))
+// do{
+//     let colorNuevo =  prompt('Ingrese un color');
+//     colores.push(colorNuevo);
+// }while(confirm('¿Desea ingresar mas colores?'))
 
-document.write(colores);
+// document.write(colores);
 
 // while(true  == true )
