@@ -1,7 +1,7 @@
-.tablaDatos, td{
+.tablaDatos, td,th{
     border: 1px solid royalblue;
 }
 
-td{
+td, th{
     padding: 5px;
 }
